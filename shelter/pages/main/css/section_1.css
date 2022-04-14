@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section-one {
+  background: radial-gradient(
+    110.67% 538.64% at 5.73% 50%,
+    #513d2f 0%,
+    #1a1a1c 100%
+  );
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  height: 900px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+.header-logo p {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 10%;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.header__links ul {
+  text-decoration: none;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 35px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.header__link {
+  color: #545454;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
+
+.active {
+  color: #fff;
+  border-bottom: 2px solid #f1cdb3;
+  padding-bottom: 3px;
+}
+
+.section-one__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-top: 223px;
+  color: #fff;
+  font-size: 44px;
+  line-height: 57px;
+  width: 310px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+.section-one__description p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  word-wrap: break-word;
+  width: 460px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
+.section-one__button {
+  background-color: #f1cdb3;
+  width: 207px;
+  height: 52px;
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 22px;
+  padding: 15px 43px 15px 43px;
+  border: none;
+  border-radius: 100px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.section-one__button:hover {
+  background-color: #fddcc4;
+}
+.not__only {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-one__dog {
+  margin-top: 87px;
+}

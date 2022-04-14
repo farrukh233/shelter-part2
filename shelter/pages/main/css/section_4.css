@@ -1,0 +1,47 @@
+.section-four {
+  height: 611px;
+}
+
+.section-four h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.section-four-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 100px;
+}
+
+.shelter_items {
+  box-sizing: border-box;
+}
+.shelter_items h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 23px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+.vitamin {
+  margin-left: 84px;
+}
+
+.medicine {
+  margin-left: 120px;
+}
+
+.collars {
+  margin-left: 120px;
+}
+
+.areas {
+  margin-left: 140px;
+}

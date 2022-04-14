@@ -1,0 +1,39 @@
+.section-two {
+  height: 588px;
+}
+
+.section-two-wrapper {
+  display: flex;
+}
+
+.section-two-img {
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.section-two-aboutpets {
+  margin-top: 95px;
+  margin-left: 120px;
+}
+
+.section-two-aboutpets h3 {
+  color: #000;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: 0.06em;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.section-two-aboutpets p {
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Arial", serif;
+  font-weight: 400;
+  width: 430px;
+}
+
+.section-two-aboutpets span {
+  margin-top: 25px;
+}

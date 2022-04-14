@@ -1,0 +1,64 @@
+.section-five {
+  background-color: #f6f6f6;
+  height: 462px;
+}
+.section-five-wrapper {
+  display: flex;
+  padding-top: 80px;
+}
+.donation-dog {
+  margin-left: 183px;
+}
+.section-five h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  margin-left: 30px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+.section-five h5 {
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  line-height: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.donation__card {
+  width: 349px;
+  height: 43px;
+  background-color: #f1cdb3;
+  border-radius: 9px;
+  margin-left: 30px;
+}
+
+.donation__card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 3px;
+}
+.donation__card img {
+  padding: 10px 15px 10px 15px;
+}
+.donation__card a {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 23px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.donation-dog-info p {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Arial", serif;
+  font-weight: 400;
+  color: #b2b2b2;
+  margin-top: 20px;
+  font-style: italic;
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+  .section-one {
+    height: 1165px;
+  }
+  .container {
+    margin: 0 auto;
+    min-width: 768px;
+  }
+  .container__wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+    height: 1055px;
+  }
+  .header__wrapper {
+    padding: 30px 30px 0 30px;
+  }
+  .section-one__description h2 {
+    position: absolute;
+    right: 65%;
+    margin-top: 60px;
+  }
+  .section-one__description p {
+    position: absolute;
+    right: 45%;
+    top: 25%;
+  }
+  .section-one__description button {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+  }
+  .section-one__dog img {
+    width: 569px;
+    height: 593px;
+    position: absolute;
+    right: 40%;
+    top: 54%;
+  }
+}

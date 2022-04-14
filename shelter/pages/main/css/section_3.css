@@ -1,0 +1,121 @@
+.section-three {
+  background-color: #e5e5e5;
+}
+.container {
+  position: relative;
+}
+.section-three h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 6%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 270px;
+  height: 435px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.card p {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 23px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.card button {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  padding: 15px 42px 15px 42px;
+  border-color: #f1cdb3;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 22px;
+  background-color: #fff;
+  margin-left: 35px;
+  margin-top: 40px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  border-style: solid;
+}
+
+.card button:hover {
+  background-color: #f1cdb3;
+}
+
+.section-three-btn {
+  width: 261px;
+  height: 52px;
+  border-radius: 100px;
+  padding: 15px 45px 15px 45px;
+  font-size: 17px;
+  line-height: 22px;
+  background-color: #f1cdb3;
+  border: none;
+  margin-left: 510px;
+  margin-top: 60px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+.section-three-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-three-btn:hover {
+  background-color: #fddcc4;
+}
+
+.arrow1 {
+  height: 52px;
+  width: 52px;
+  background-color: #f6f6f6;
+  border-color: #f1cdb3;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 20px;
+  border-style: solid;
+  position: absolute;
+  left: -10%;
+  top: 50%;
+}
+
+.arrow1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 2px;
+}
+.arrow2 {
+  height: 52px;
+  width: 52px;
+  background-color: #f6f6f6;
+  border-color: #f1cdb3;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 20px;
+  border-style: solid;
+  position: absolute;
+  right: -10%;
+  top: 50%;
+}
+
+.arrow2:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 2px;
+}
