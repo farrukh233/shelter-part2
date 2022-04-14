@@ -4,33 +4,36 @@
   }
   .container {
     margin: 0 auto;
-    min-width: 768px;
-  }
-  .container__wrapper {
-    margin: 0 auto;
     max-width: 768px;
   }
-  .header__wrapper {
-    padding: 30px 30px 0;
+  /*
+  .container__wrapper {
     margin: 0 auto;
   }
-  .header__links {
-    padding-right: 15%;
+  */
+  .header__wrapper {
+    padding: 30px 30px 0;
   }
+
   .section-one-info {
     margin-right: 80em;
   }
   .section-one-info h2 {
     margin-top: 60px;
+    margin-left: 3.5em;
+  }
+  .section-one-info p {
+    margin-left: 10em;
   }
   .section-one__button {
-    margin-left: 100px;
+    margin-left: 15em;
   }
+
   .dog {
     width: 569px;
     height: 593px;
-    padding-top: 3%;
-    padding-left: 5%;
+    padding-top: 2.9%;
+    margin-left: 10em;
   }
   .section-one__description {
     display: flex;
